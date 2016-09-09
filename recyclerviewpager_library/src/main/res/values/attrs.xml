@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RecyclerViewPager">
+        <attr name="triggerOffset" format="float" />
+        <attr name="flingFactor" format="float" />
+        <attr name="pagerMarginLeft" format="dimension" />
+        <attr name="pagerMarginRight" format="dimension" />
+        <attr name="pagerMarginTop" format="dimension" />
+        <attr name="pagerMarginBottom" format="dimension" />
+        <attr name="singlePageFling" format="boolean" />
+        <attr name="loopEnabled" format="boolean" />
+    </declare-styleable>
+
+</resources>
