@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item app:state_range_middle="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" />
+            <solid android:color="@color/calendar_selected_range_bg" />
+            <stroke android:width="5dp" android:color="#00000000" />
+        </shape>
+    </item>
+
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" />
+            <solid android:color="@color/calendar_selected_day_bg" />
+            <stroke android:width="5dp" android:color="#00000000" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" />
+            <solid android:color="@color/calendar_selected_day_bg" />
+            <stroke android:width="5dp" android:color="#00000000" />
+        </shape>
+    </item>
+
+    <item app:state_current_month="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" />
+            <solid android:color="@color/calendar_inactive_month_bg" />
+            <stroke android:width="5dp" android:color="#00000000" />
+        </shape>
+    </item>
+
+    <item app:state_highlighted="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" />
+            <solid android:color="@color/calendar_highlighted_day_bg" />
+            <stroke android:width="5dp" android:color="#00000000" />
+        </shape>
+    </item>
+
+    <item app:state_today="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" />
+            <solid android:color="@color/calendar_text_active" />
+            <stroke android:width="5dp" android:color="@color/transparent" />
+        </shape>
+    </item>
+
+    <item app:state_out_of_date="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/calendar_out_of_date_bg" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/calendar_active_month_bg" />
+        </shape>
+    </item>
+</selector>

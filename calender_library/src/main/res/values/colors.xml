@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_gray">#a0a0a0</color>
+    <color name="text_color_gray2">#4a4a4a</color>
+
+    <color name="calendar_selected_range_bg">#f1f1f1</color>
+    <color name="calendar_selected_day_bg">#43CCB3</color>
+    <color name="calendar_inactive_month_bg">@color/white</color>
+    <color name="calendar_highlighted_day_bg">@color/white</color>
+    <color name="calendar_out_of_date_bg">@color/white</color>
+    <color name="calendar_text_active">#f6f6f6</color>
+    <color name="calendar_active_month_bg">@color/white</color>
+    <color name="calendar_header_color">@color/text_color_gray2</color>
+</resources>

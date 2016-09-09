@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="little_10">10.0sp</dimen>
+    <dimen name="little_12">12.0sp</dimen>
+    <dimen name="little_14">14.0sp</dimen>
+    <dimen name="little_16">16.0sp</dimen>
+    <dimen name="little_18">18.0sp</dimen>
+</resources>
