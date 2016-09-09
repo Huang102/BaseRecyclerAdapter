@@ -1,1 +1,1 @@
-include ':adapterdemo'
+include ':adapterdemo', ':base_adapter_library', ':base_presenter_library'
